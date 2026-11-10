@@ -1,14 +1,14 @@
 {
-  "name": "manufacturing-complete",
+  "name": "manufacturing",
   "owner": {
     "name": "Anthropic"
   },
-  "description": "Manufacturing Complete — skills for the work a plant actually runs on.",
+  "description": "Manufacturing — skills for the work a plant actually runs on.",
   "plugins": [
     {
-      "name": "manufacturing-complete",
+      "name": "manufacturing",
       "source": "./",
-      "description": "Seventeen skills for the work a plant runs on: consolidating plant data, quoting make-to-order jobs from drawings, writing nonconformances and 8Ds, diagnosing breakdowns, reporting the morning numbers, and sourcing suppliers. Ships with Microsoft 365, Oracle NetSuite, Infor M3 and Autodesk Fusion, and runs on scheduled file exports when a system has no connector."
+      "description": "Seventeen skills for the work a plant runs on: consolidating plant data, quoting make-to-order jobs from drawings, writing nonconformances and 8Ds, diagnosing breakdowns, reporting the morning numbers, and sourcing suppliers. Ships with Microsoft 365, Oracle NetSuite, Infor M3 and Autodesk Fusion, and runs on scheduled file exports when a system has no connector. Install and then ask Claude to help you get onboarded."
     }
   ]
 }
