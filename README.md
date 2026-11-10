@@ -1,4 +1,4 @@
-# Manufacturing Complete
+# Manufacturing
 
 Skills for the work a plant actually runs on. Quoting make-to-order jobs, writing
 nonconformances and 8Ds, diagnosing breakdowns, reporting the morning numbers —
@@ -17,7 +17,7 @@ applied, sent, or written to your systems without your say-so.
 
    - Open **Customize** in the sidebar, then **Plugins**.
    - Choose **Add marketplace** and enter `tenex-labs/manufacturing-complete-plugin`.
-   - Install **Manufacturing Complete** from the list.
+   - Install **Manufacturing** from the list.
 
    On a Team or Enterprise plan, an admin adds the marketplace for the
    organization instead.
@@ -25,7 +25,7 @@ applied, sent, or written to your systems without your say-so.
    In Claude Code, the same marketplace installs with one command:
 
    ```
-   /plugin install manufacturing-complete --marketplace tenex-labs/manufacturing-complete-plugin
+   /plugin install manufacturing --marketplace tenex-labs/manufacturing-complete-plugin
    ```
 
 2. Say **"set us up"**. `onboarding` asks which ERP, CAD, maintenance and
