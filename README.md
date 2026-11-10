@@ -13,17 +13,19 @@ applied, sent, or written to your systems without your say-so.
 
 ## Getting started
 
-1. Install the plugin. In Claude Code:
+1. Install the plugin. In Cowork:
+
+   - Open **Customize** in the sidebar, then **Plugins**.
+   - Choose **Add marketplace** and enter `tenex-labs/manufacturing-complete-plugin`.
+   - Install **Manufacturing Complete** from the list.
+
+   On a Team or Enterprise plan, an admin adds the marketplace for the
+   organization instead.
+
+   In Claude Code, the same marketplace installs with one command:
 
    ```
    /plugin install manufacturing-complete --marketplace tenex-labs/manufacturing-complete-plugin
-   ```
-
-   On an older Claude Code, add the marketplace first, then install:
-
-   ```
-   /plugin marketplace add tenex-labs/manufacturing-complete-plugin
-   /plugin install manufacturing-complete
    ```
 
 2. Say **"set us up"**. `onboarding` asks which ERP, CAD, maintenance and
@@ -70,9 +72,8 @@ set — but it still needs one action from you before it will connect:
 Chain 3 — the morning plant pulse — is built to run unattended: it asks nothing,
 it is idempotent, and if last night's export did not land it still runs and says
 so at the top. **What it needs from you is the trigger.** A plugin cannot wake
-itself up, so schedule a Claude session however you already schedule things —
-Claude Code's own scheduling, cron, Task Scheduler — pointed at *"run the
-morning production report for yesterday."*
+itself up, so schedule it: a scheduled task in Cowork (or Claude Code's own
+scheduling) pointed at *"run the morning production report for yesterday."*
 
 Saying "morning report" yourself at 6:15am produces exactly the same page. That
 is a legitimate way to start, and it is still ninety minutes a supervisor gets
